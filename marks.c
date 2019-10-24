@@ -2,7 +2,7 @@
 
 int main()
 {
-int sub1,sub2,sub3;
+int sub1,sub2,sub3,sub4;
 float avg;
 char name[10];
 
@@ -10,9 +10,9 @@ printf("Enter your name :");
 scanf("%s",&name);
 
 printf("Enter your marks for subjects");
-scanf("%d %d %d",&sub1,&sub2,&sub3);
+scanf("%d %d %d %d",&sub1,&sub2,&sub3,&sub4);
 
-avg=(sub1+sub2+sub3)/3.00;
+avg=(sub1+sub2+sub3+sub4)/4.00;
 
 if (avg<=100 && avg>=75)
 	printf("Your grade is 'A'\n");
